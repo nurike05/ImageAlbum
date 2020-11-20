@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Gallery Image Feature</h1>
+    <ul>
+        <li>MVC Image Gallery</li>
+        <li>Save Image in database</li>
+        <li>Retrive Image from database</li>
+        <li>Create Like button for images</li>
+        <li>Upload Image through Ajax</li>
+        <li>Use Authorisation and authentication</li>
+        <li>Registration</li>
+    </ul>
+</div>
+
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("Logout", "User", FormMethod.Post, new { id="logoutForm"}))
+    {
+        <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+    }
+}
+ 

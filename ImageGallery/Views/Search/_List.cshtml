@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ImageGallery.ViewModel.DAL.GalleriesVM>
+
+
+@using (Html.BeginForm("Index", "Search", FormMethod.Post))
+{
+    <div>
+        Search by Title name @Html.TextBox("searching")
+        <input type="submit" value="Search" />
+    </div>
+}
+
+
+<ul style="list-style:none;" class="row">
+    @foreach (var item in Model)
+    {
+
+        <li class="col-md-3">
+            <br />
+            <a data-fancybox="gallery" data-caption="@item.Title" href="@Url.Action("GetImage", "DownloadFile", new { Area = "", Id = item.WebImageId })">
+                <img class="img" src="@Url.Action("GetImage", "DownloadFile", new { Area = "", Id = item.WebImageId, t = 2 })" style="width:100%;height:180px;" />
+            </a>
+            <br />
+            <label>@item.Title</label>
+            <br />
+            <br />
+            @Html.DisplayFor(modelItem => item.post_like) likes <br />
+            @Html.ActionLink("Like", "Like", new { id = item.Id })
+            <br />
+            <br />
+        </li>
+        @*}*@
+    }
+    @*@{
+        if (Model.Count() == 0)
+        {
+           
+            Html.RenderPartial("_List");
+
+        }
+    }*@
+</ul>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ImageGallery.BundleConfig" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.FilterConfig" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.RouteConfig" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Crypto" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crypto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.MvcApplication" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Controllers.DownloadFileController" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DownloadFileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Controllers.GalleryAdminController" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAgAAEAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\GalleryAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Controllers.GalleryController" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARAAAAQAAAAAAAAAAAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>Controllers\GalleryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Controllers.HomeController" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Controllers.SearchController" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>Controllers\SearchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Controllers.UserController" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAAEgAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Filters.MyAuthAttribute" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAA=</HashCode>
+      <FileName>Filters\MyAuthAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ImageGallery.Models.DAL.Galleries" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAEAAEAAAAAAAAEAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\DAL\Galleries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Models.DAL.ImageGalleryEntities" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\DAL\ImageGalleryEntities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Models.DAL.User" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAEAAAAAgAAAASAAACAAAAAAAAIAg=</HashCode>
+      <FileName>Models\DAL\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Models.DAL.WebFiles" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAQAAAAAAEAAAAAgAAAAAABAAAAAQAABAAAA=</HashCode>
+      <FileName>Models\DAL\WebFiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.Models.UserLogin" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Models\UserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.MyRoleProvider.SiteRole" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEEAAwAAAEAAAAAAAABAAAAAAAAAIAAAAEAAEQAAA=</HashCode>
+      <FileName>MyRoleProvider\SiteRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.ViewModel.ImageEditorViewModel" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAACAACAAAA=</HashCode>
+      <FileName>ViewModel\ImageEditorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.ViewModel.ImageList" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAEAAEAAAAAAAAEAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ViewModel\ImageEditorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageGallery.ViewModel.WebFileViewModel" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\WebFileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="8.25" />
+</ClassDiagram>
